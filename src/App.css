@@ -1,9 +1,20 @@
 .App {
   text-align: center;
   margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  /* vertical-align: middle; */
+  flex-direction: row;
+  align-items: baseline;
 }
 
 button {
   color: white;
   font-size: 20px;
+}
+
+input[type="checkbox"] {
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
 }
